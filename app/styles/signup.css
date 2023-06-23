@@ -1,0 +1,49 @@
+.main-div {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-bottom: 1rem;
+}
+.signup-form {
+  position: relative;
+  top: 20vh;
+  background-color: rgb(134, 155, 193);
+  padding: 20px;
+  margin: auto;
+  width: 25vw;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: rgba(100, 103, 100, 0.869) 5px 5px 5px;
+}
+.signup-div {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  align-self: center;
+  border: none;
+  width: 15vw;
+  height: 3.5vh;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+label {
+  font-size: 20px;
+  color: black;
+  padding-bottom: 1rem;
+}
+button {
+  width: 8vw;
+  height: 4vh;
+  background-color: white;
+  font-size: large;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.error{
+  color: brown;
+}
